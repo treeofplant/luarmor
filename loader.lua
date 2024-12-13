@@ -13,6 +13,10 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/d8afdb07fbbcee
 
 elseif game.PlaceId == 537413528 then --- Build A Boat For Treasure
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/bce5241ec70323b994da2a7fa9e75901.lua"))()
+      
+elseif game.PlaceId == 3351674303 then --diving empire
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/1fdc5e92eec9c5b02c8635df4f365a75.lua"))()
+
 end
 end)()
 
