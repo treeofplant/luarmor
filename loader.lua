@@ -18,7 +18,7 @@ elseif game.PlaceId == 3351674303 then --diving empire
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/1fdc5e92eec9c5b02c8635df4f365a75.lua"))()
 
 elseif game.PlaceId == 6520999642 then --basically fnf
-getgenv.fnfcmb = true
+getgenv().fnfcmb = true
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/d44b4ce46a7c1edbf18ad513122feaee.lua"))()
 end
 end)()
