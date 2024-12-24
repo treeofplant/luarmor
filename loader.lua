@@ -11,7 +11,7 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e453d35c652dc5
 elseif game.PlaceId == 2534724415 then --- Emergency Response: Liberty County
 
 coroutine.wrap(function()
-
+pcall(function()
 local original1 = getgenv().printconsole or function() return end
 local original2 = getgenv().print or function() return end
 getgenv().printconsole = function() return end
@@ -19,6 +19,7 @@ getgenv().print = function() return end
 wait(10)
 getgenv().printconsole = original1
 getgenv().print = original2
+end)
 end)()
 
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/d8afdb07fbbcee024e2d22bfeab6abbd.lua"))()
