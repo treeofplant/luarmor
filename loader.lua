@@ -21,7 +21,7 @@ getgenv().printconsole = original1
 getgenv().print = original2
 end)()
 
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/d8afdb07fbbcee024e2d22bfeab6abbd.lua"))
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/d8afdb07fbbcee024e2d22bfeab6abbd.lua"))()
 
 elseif game.PlaceId == 537413528 then --- Build A Boat For Treasure
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/bce5241ec70323b994da2a7fa9e75901.lua"))()
