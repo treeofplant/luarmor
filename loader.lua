@@ -16,7 +16,7 @@ local original1 = getgenv().printconsole or function() return end
 local original2 = getgenv().print or function() return end
 getgenv().printconsole = function() return end
 getgenv().print = function() return end
-wait(10)
+wait(30)
 getgenv().printconsole = original1
 getgenv().print = original2
 end)
