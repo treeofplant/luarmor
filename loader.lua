@@ -5,6 +5,10 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/1ac9b54586a547
 elseif game.PlaceId == 891852901 then --- GreenVille
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/832543db68401da3a175248c3869edf5.lua"))()
 
+elseif game:GetService("ReplicatedStorage"):FindFirstChild("Packages") and game:GetService("ReplicatedStorage").Packages:FindFirstChild("Knit") and game:GetService("ReplicatedStorage").Packages.Knit:FindFirstChild("Services") and game:GetService("ReplicatedStorage").Packages.Knit.Services:FindFirstChild("BallService") then
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/d6096bf59db7fea1dd9bb3ecab113289.lua"))()
+
+
 elseif game.PlaceId == 15092647980 or game.PlaceId == 16200303170 then --- Project Smash
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e453d35c652dc59f67581353bc5a6650.lua"))()
 
