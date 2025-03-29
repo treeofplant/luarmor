@@ -1,3 +1,4 @@
+local creator = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Creator.CreatorTargetId
 coroutine.wrap(function()
 if game.PlaceId == 10449761463 then --- TSB
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/1ac9b54586a547470e1dd3bdc77ee94c.lua"))()
@@ -34,7 +35,7 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/bce5241ec70323
 elseif game.PlaceId == 3351674303 then --diving empire
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/1fdc5e92eec9c5b02c8635df4f365a75.lua"))()
 
-elseif game.Workspace:FindFirstChild("RuntimeEntities") then --dead rails
+elseif creator == 11867394 then --dead rails
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/049986471e716d7e1960bb897309b8f1.lua"))()
 
 elseif game.PlaceId == 6520999642 then --basically fnf
